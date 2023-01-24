@@ -1,0 +1,73 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+.Navbar{
+    height: 100px;
+    background-color: rgb(175, 218, 255);
+    display: flex;
+    align-items: center;
+}
+.CPFtitle{
+    margin: 0;
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: Roboto;
+    color: white;
+}
+.verification-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.verification-container label,span{
+    background-color: rgb(175, 218, 255);
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.verification-container span{
+    font-size: 24px;
+    font-family: Roboto;
+    text-align: center;
+    height: 70px;
+    width: 450px;
+    color: white;
+    margin-top: 30px;
+}
+.verification-container label{
+    color: white;
+    font-size: 24px;
+    font-family: Roboto;
+}
+
+.cpfInput{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    height: 30px;
+    font-size: 20px;
+}
+.confirmBtn{
+    height: 40px;
+    width: 160px;
+    border: none;
+    background-color:rgb(175, 218, 255);
+    color: white;
+    font-size: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.confirmBtn:active{
+    background-color: rgb(150, 209, 248);
+}
+.result{
+    display: none;
+    align-items: center;
+}
